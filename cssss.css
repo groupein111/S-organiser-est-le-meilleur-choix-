@@ -1,0 +1,95 @@
+/* Global styles */
+body {
+    font-family: ADlaM Display, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+}
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2, h3 {
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #31dedb;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Styles pour les liens */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #2362cf;
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    ul li {
+        background-color: #f9f9f9;
+        margin: 5px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+}
+
+@media(max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .theme-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .theme-buttons button {
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    .light-theme {
+        background-color: #fff2f2;
+    }
+    .dark-theme {
+        background-color: #333;
+        color: white;
+    }
+}
